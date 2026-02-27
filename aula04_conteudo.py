@@ -1,7 +1,8 @@
 # REVISÃO
 
 # for - iteração sobre cada valor indice da lista 
-# alteração, busca, edição, 
+
+# ALTERAÇÃO, BUSCA E EDIÇÃO
 
 lista = [1, 2, 3]
 
@@ -23,7 +24,7 @@ while i < 2:
 print("\n===================================================\n")
 
 # conversão do input que é uma string por padrão
-valor = int(input("digite um numero: "))
+valor = int(input("Digite um número: "))
 print(valor)
 print(type(valor))
 
@@ -50,12 +51,12 @@ print(lista_num)
 lista_p.sort(reverse=True)
 print(lista_p)
 
-# sorted - retorna o valor da lista ordenada de forma mais direta
+# sorted() - retorna o valor da lista ordenada de forma mais direta
 
 print(sorted(lista_p))
 lista_p_ordenada = sorted(lista_p)
 
-# Problemas comuns 
+# PROBLEMAS COMUNS
 
 # Sorted é case sensitive
 print("\nSorted é case sensitive")
@@ -65,7 +66,7 @@ print(sorted(lista_p_maisculas_minusculas_numeros))
 
 print("\n===================================================\n")
 
-# .reverse() - Inverte a ordem dos índices lista, sem ordenar
+# reverse() - Inverte a ordem dos índices lista, sem ordenar
 lista_diferente = [2, 5, 3, 10]
 lista_diferente.reverse()
 print(lista_diferente)
@@ -79,13 +80,13 @@ lista = ["a", "b", "c", "d", "e"]
 # o primeiro é inclusivo e o último é exclusivo
 print(lista[1:3])
 
-# Tira o primeiro valor "a" --> ["b", "c", "d"]
+# Tira o primeiro valor "a" --> ["b", "c", "d", "e"]
 print(lista[1:])
 
-# Tira o indice 3 "d" --> ["a", "b", "c"] 
+# Tira a partir do indice 3 "d" --> ["a", "b", "c"] 
 print(lista[:3])
 
-# Pegar o último número da lista
+# Pega o último número da lista
 print(lista[-1])
 
 # Traz valores de indices em intervalos => no caso, de 2 em 2
@@ -97,10 +98,10 @@ print(lista[::-2])
 print("\n===================================================\n")
 
 # index()
-frutas = ["banana", "maça", "pera"]
+frutas = ["banana", "maçã", "pera"]
 #             0   ,   1   ,   2
 
-posicao = frutas.index("maça")
+posicao = frutas.index("maçã")
 print(posicao)
 
-#se tiver valores duplicados na lista, ele traz a posição da primeira ocorrencia
+# se tiver valores duplicados na lista, ele traz a posição da primeira ocorrencia

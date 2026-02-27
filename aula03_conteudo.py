@@ -1,8 +1,8 @@
-# LOOP - ciclos que acontece até que tenha uma instrução que fará ele parar
-
+# LOOP - ciclo que acontece até que tenha uma instrução que fará ele parar
 
 # LOOP BÁSICO
-# while -- Enquanto alguma coisa acontece (condição), faça algo
+
+# WHILE -- Enquanto alguma coisa acontece (condição), faça algo
 
 num = 0
 while num < 2:
@@ -20,7 +20,7 @@ while num <= 2:
         print("O número é ÍMPAR")
     num += 1
 
-# LOOP COM BREAK (quando uma condição é atendida ele para no break para pausar a execução do loop... ex: usuário digitar a senha correta)
+# LOOP COM BREAK (quando uma condição é atendida ele para no break para pausar a execução do loop. ex: usuário digitar a senha correta)
 while True:
     senha = int(input("Digite sua senha: "))
     if senha == 55:
@@ -55,8 +55,8 @@ while True:
 
 # FOR -- para cada vez que algo acontece, faça algo
 
-lista = [1,2,3,4]
-#        0,1,2,3   lista usa o índice
+lista = [1, 2, 3, 4]
+#        0, 1, 2, 3   lista usa o índice
 
 range(1, 5) # usa os valores e não o índice - comece pelo 1, termine antes de 5
 
@@ -90,10 +90,10 @@ for i in range(1, 11):
 for i in range(0, 10, 2):
     print(i)
 
-lista =             [0,1,2,3,4,5,6,7,8,9,10]
-#index no range(1)  [0,1,2,3,4,5,6,7,8,9,10]
-#index no range(2)  [0,  2,  4,  6, ,8,  10]
-#index no range(3)  [0,    3,    6,    9   ]
+lista =             [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+#index no range(1)  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+#index no range(2)  [0,    2,    4,    6,    8,    10]
+#index no range(3)  [0,       3,       6,       9    ]
 
 # Inverter a contagem - do maior para o menor
 for i in range(10, 0, -2):
@@ -117,6 +117,7 @@ for fruta in frutas:
     print(fruta)
 
 # sempre que eu quiser iterar sobre uma lista devemos usar o FOR
+
 # if dentro do for
 numeros = [0, 1, 2, 3, 4, 5]
 for numero in numeros:

@@ -1,13 +1,12 @@
-# Controle de Fluxo
-## If... Else 
+# CONTROLE DE FLUXO (If... Else)
 
 # if -- se acontecer tal coisa, faça algo
 
 # else -- senão, faça este outro algo
 
 idade = int(input("Digite um número: "))
-# int -> O input sempre converte para string, para usar como inteiro
-# float -> O input sempre converte para string, para usar como inteiro
+# int() -> O input sempre por padrão salva como uma string, para converter para inteiro precisa passar int()
+# float() -> O input sempre por padrão salva como uma string, para converter para float precisa passar float()
 
 if (idade) == 25:
     print("CERTO")
@@ -17,8 +16,10 @@ else:
 print("\n===================================================\n")
 
 # um igual = atribuição de valores a uma variável
+
 # dois igual == comparação
-# no python não tem 3 iguais === mas em outras linguagens serve para comparar valor e tipo
+
+# OBS: No Python não tem 3 iguais === mas em outras linguagens serve para comparar valor e tipo
 
 """
 
@@ -28,9 +29,9 @@ TIPO DE COMPARAÇÃO
 != - Diferente
 >  - Maior
 <  - Menor
->= - Maior ou igual
-<= - Menor ou igual
-%  - Restante da divisão
+>= - Maior ou Igual
+<= - Menor ou Igual
+%  - Restante da Divisão
 
 """
 
@@ -44,8 +45,9 @@ print("\n===================================================\n")
 
 # Validação PAR ou ÍMPAR
 
-# Par = números divididos por 2 com resto 0
-# Ímpar = números divididos por 2 com resto 1
+# PAR = números divididos por 2 com resto 0
+
+# ÍMPAR = números divididos por 2 com resto 1
 
 idade_tres = int(input("Digite um número: "))
 resultado = idade_tres % 2
@@ -74,13 +76,13 @@ if resultado_tres == 0:
 else:
     print("O resultado é um número float")
 
-# Para saber o tipo é melhor usar o print(type(resultado_tres))
+# OBS: Para saber o tipo é melhor usar o print(type(resultado_tres))
 
 print("\n===================================================\n")
 
 # elif -- Mais níveis de comparações
 
-valor = int(input("DIGITE UM VALOR: "))
+valor = int(input("Digite um valor: "))
 if valor < 10:
     print("Valor menor que 10")
 elif valor == 10:
@@ -90,11 +92,11 @@ else:
 
 print("\n===================================================\n")
 
-# Validação de variavel existente
+# Validação de variável existente
 
 # OBS: O nada também é um valor possível.
 
-valor_dois = input("DIGITE UM VALOR: ")
+valor_dois = input("Digite um valor: ")
 if valor_dois:
     print("Valor existe")
 else:
@@ -118,7 +120,7 @@ elif var == True:
 else:
     print("outro tipo")
 
-## OBS: O fluxo para na primeira validação atendida, independente se alguma seguinte estão certas ou não, para contornar isso possível fazer do jeito abaixo, mas não é o ideal... O melhor é fazer por looping.
+## OBS: O fluxo para na primeira validação atendida, independente se as seguintes estão certas ou não, para contornar isso possível fazer do jeito abaixo, mas não é o ideal... O melhor é fazer por looping.
 
 var = 5 # [], , 5, 5.0, True
 if type(var) == int: 

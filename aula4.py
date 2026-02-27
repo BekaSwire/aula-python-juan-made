@@ -33,7 +33,7 @@ print("\n===================================================\n")
 
 # sort() - ordenar números por ordem crescente, ordem alfabética de string
 lista_num = [5, 1, 8, 3, 2] 
-lista_p = [ "camelo", "carro", "abacate", "mansão", "jato"]
+lista_p = ["camelo", "carro", "abacate", "mansão", "jato"]
 
 lista_num.sort()
 print(lista_num)

@@ -8,6 +8,7 @@ python -m venv venv                #para criar o ambiente virtual
 
 source venv/Scripts/activate       #para ativar o ambiente virtual
 
-deactivate                         #para desativar o ambiente
+deactivate                         #para desativar o ambiente virtual
 
 ```
+

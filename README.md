@@ -5,11 +5,25 @@
 ```bash
 
 # Utilizando o git bash
-python -m venv venv                #para criar o ambiente virtual
-source venv/Scripts/activate       #para ativar o ambiente virtual
-deactivate                         #para desativar o ambiente virtual
+python -m venv venv                # para criar o ambiente virtual
+source venv/Scripts/activate       # para ativar o ambiente virtual
+deactivate                         # para desativar o ambiente virtual
 
 ```
+
+## Instalações
+
+xxxx
+
+## Conteúdo Programático
+
+- Introdução + Comandos Básicos
+- Tipos de Variáveis e F-strings
+- Controle de Fluxo (if/else)
+- Operadores de Atribuição e Comparação
+- Loops (For e While)
+- Listas, Tuplas e Dicionários
+... a continuar
 
 ## Treinamento Técnico
 

@@ -1,4 +1,5 @@
 # Funções e Operadores básicos
+
 ## nome da função seguido por parenteses
 print("O print exibe no termina o que está entre parenteses")
 print(5+5-8*5/7)

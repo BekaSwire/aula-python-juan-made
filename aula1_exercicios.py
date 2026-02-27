@@ -50,7 +50,9 @@ Exemplo de exibição: Sua segunda cor favorita é: Azul
 print("Execício 2\n")
 
 cor_um = input("Digite sua primeira cor favorita: ")
+
 cor_dois = input("Digite sua segunda cor favorita: ")
+
 cor_tres = input("Digite sua terceira cor favorita: ")
 
 print(f"Sua segunda cor favorita é: {cor_dois}")

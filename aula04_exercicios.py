@@ -1,5 +1,12 @@
+print("\n===================================================\n")
+
+print("EXERCÍCIOS AULA 4")
+
+print("\n===================================================\n")
+
 """
-AULA 3
+
+AULA 4
 
 Exercício 1:
 
@@ -13,11 +20,13 @@ Crie um programa que:
 
 """
 
+print("Execício 1\n")
+
 lista = [1,2,3,4,5,6,7,8,9,10]
 
 #print(f"Os cinco primeiros números da lista são {lista[0:5]}")
 
-print(f"\nOs cinco primeiros números da lista são {lista[:5]}")
+print(f"Os cinco primeiros números da lista são {lista[:5]}")
 
 #print(f"Os dois últimos números da lista são {lista[-2]} e {lista[-1]}")
 
@@ -25,7 +34,9 @@ print(f"\nOs dois últimos números da lista são {lista[-2:]}")
 
 print("\n===================================================\n")
 
+
 """
+
 Exercício 2:
 
 Crie um programa que:
@@ -42,6 +53,8 @@ Crie um programa que:
 
 """
 
+print("Execício 2\n")
+
 lista_dois = [1,2,3,4,5,6,7,8,9,10]
 
 numero = int(input("Digite um número: "))
@@ -53,12 +66,13 @@ for numero in lista_dois:
     if numero % 2 == 0:
         numeros_pares.append(numero)
 
-print(f"\nOs números pares são {numeros_pares}")
+print(f"\nOs números pares da lista são {numeros_pares}")
 
 print("\n===================================================\n")
 
 
 """
+
 Exercício 3:
 
 Crie um programa que:
@@ -70,6 +84,8 @@ Crie um programa que:
 3- Exiba a lista no terminal ordenada de forma decrescente
 
 """
+
+print("Execício 3\n")
 
 lista_tres = [5, 8, 6, 1, 11, 54, 22, 0, 3]
 
@@ -83,6 +99,7 @@ print("\n===================================================\n")
 
 
 """
+
 Exercício 4:
 
 Crie um programa que:
@@ -97,9 +114,11 @@ Crie um programa que:
 
 5- Exiba no terminal a menor nota
 
-6 Exiba no terminal a posição da maior nota
+6- Exiba no terminal a posição da maior nota
 
 """
+
+print("Execício 4\n")
 
 #notas = []
 
@@ -119,7 +138,7 @@ Crie um programa que:
 notas = []
 
 for i in range(0, 5):
-    nota = float(input(f"Digite nota {i+1}: "))
+    nota = float(input(f"Digite a nota {i+1}: "))
     notas.append(nota)
 
 notas.sort()
@@ -130,3 +149,5 @@ print(f"\nA menor nota informada foi {notas[0]}")
 
 posicao_maior_nota = notas.index(notas[-1])
 print(f"\nA posição da maior nota é {posicao_maior_nota}")
+
+print("\n===================================================\n")

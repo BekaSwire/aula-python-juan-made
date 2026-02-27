@@ -6,6 +6,9 @@ print("EXERCÍCIOS AULA 2")
 print("\n===================================================\n")
 
 """
+
+AULA 2
+
 Exercício 1:
 
 Crie um programa que:

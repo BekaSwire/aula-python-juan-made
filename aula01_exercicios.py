@@ -4,9 +4,6 @@ print("EXERCÍCIOS AULA 1")
 
 print("\n===================================================\n")
 
-print("Execício 1\n")
-
-
 """
 
 AULA 1
@@ -24,6 +21,8 @@ Crie um programa que:
 Exemplo de exibição: "Olá Juan, você tem 27 anos!"
 
 """
+
+print("Execício 1\n")
 
 nome = input("Digite seu nome: ")
 

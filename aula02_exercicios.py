@@ -5,8 +5,6 @@ print("EXERCÍCIOS AULA 2")
 
 print("\n===================================================\n")
 
-print("Execício 1\n")
-
 """
 Exercício 1:
 
@@ -22,6 +20,8 @@ Exemplo de exibição: “O número que você digitou é PAR"
 
 """
 
+print("Execício 1\n")
+
 numero = int(input("Digite um número: "))
 if numero % 2 == 0:
     print(f"O número {numero} é PAR")
@@ -30,7 +30,6 @@ else:
 
 print("\n===================================================\n")
 
-print("EXERCÍCIO 2\n")
 
 """
 Exercício 2:
@@ -54,6 +53,8 @@ Exemplo de exibição:  "A idade digitada é de um Adolescente!"
 
 """
 
+print("EXERCÍCIO 2\n")
+
 idade = int(input("Digite uma idade: "))
 
 if idade < 12:
@@ -65,7 +66,9 @@ elif idade < 60:
 else:
     print(f"Uma pessoa com {idade} anos é considerada uma pessoa idosa")
 
+
 print("\n===================================================\n")
+
 
 print("EXERCÍCIO 2 - outra maneira de escrever, com AND\n")
 

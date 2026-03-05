@@ -13,11 +13,13 @@ deactivate                         # para desativar o ambiente virtual
 
 ## Instalações
 
-- pip install requirements.txt
+- pip install -r requirements.txt
 
 ### Para atualizar o arquivo requirements.txt
 
 - pip freeze > requirements.txt
+
+> Arquivo contendo uma lista exata de todas as bibliotecas Python e suas versões instaladas no ambiente atual.
 
 ## Comando para executar
 
@@ -31,7 +33,6 @@ python aula01_conteudo.py
 python aula01_exercicios.py
 
 ```
-
 
 ## Conteúdo Programático
 

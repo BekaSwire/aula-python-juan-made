@@ -13,7 +13,25 @@ deactivate                         # para desativar o ambiente virtual
 
 ## Instalações
 
-xxxx
+- pip install requirements.txt
+
+### Para atualizar o arquivo requirements.txt
+
+- pip freeze > requirements.txt
+
+## Comando para executar
+
+- python nome_do_arquivo.py
+
+```bash
+
+# Exemplos
+python aula01_conteudo.py
+
+python aula01_exercicios.py
+
+```
+
 
 ## Conteúdo Programático
 

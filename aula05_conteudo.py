@@ -121,7 +121,7 @@ print(var_lista.count("b"))
 
 # ---
 
-# Editar uma tupla de forma não convencinal (gambiarra)
+# Editar uma tupla de forma não convencional (gambiarra)
 ## converte a tupla para lista, edita e converte de novo
 
 var_tupla = ("a", "b", "d")
